@@ -50,6 +50,11 @@ class _LoginPageState extends State<LoginPage> {
               decoration: InputDecoration(labelText: 'Password'),
               obscureText: true,
             ),
+            TextField(
+              controller: _passwordController,
+              decoration: InputDecoration(labelText: 'mobile'),
+              obscureText: true,
+            ),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
